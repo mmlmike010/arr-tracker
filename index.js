@@ -30,48 +30,8 @@ app.get('/webhook', (req, res) => {
 
 // take in post requests
 app.post('/webhook', (request, response) => {
-    
-  // Check to see POST request was received
-  console.log('request recieved');
 
-  // Start of POST request to FH
-  var options = {
-    "method": "POST",
-    "hostname": "api.firehydrant.io",
-    "port": null,
-    "path": "/v1/incidents",
-    "headers": {
-    "content-type": "application/json",
-    "authorization": "fhb-61cb8cc3a30ecaada06273dffe034a5c"
-    }
-  };
-  
-  var req = http.request(options, function (res) {
-    var chunks = [];
-  
-    res.on("data", function (chunk) {
-      chunks.push(chunk);
-    });
-  
-    res.on("end", function () {
-      var body = Buffer.concat(chunks);
-      console.log(body.toString());
-    });
-  });
-  
-  // POST data to be sent to FH
-  req.write(JSON.stringify({
-    name: request.body.messages[0].incident.title,
-    summary: request.body.messages[0].incident.description,
-    severity: 'SEV1',
-    severity_condition_id: 'string',
-    severity_impact_id: 'string',
-    alert_ids: ['string'],
-    labels: {}
-  }));
-  req.end();
-
-
+  console.log('post request received')
 
   response.status(200).end();
 

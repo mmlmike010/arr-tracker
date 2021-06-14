@@ -4,7 +4,7 @@
   "description": "Mike's API Tests",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Mike Lacsamana",
   "license": "MIT",
@@ -15,5 +15,9 @@
     "express": "^4.17.1",
     "https": "^1.0.0",
     "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.0"
   }
 }
