@@ -15,7 +15,9 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 app.options('*', cors());
-app.listen(3000, () => console.log('listening at 3000'));
+
+var port = process.env.PORT || 80;
+app.listen(port, () => console.log('listening at 3000'));
 app.use(express.static('public'));
 app.use(express.json({ limit: '1mb' }));
 
