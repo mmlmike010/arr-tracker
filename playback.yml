@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: playback-order
   description: Playback Order
+  team: platform
   tags:
     - ruby
     - playback
