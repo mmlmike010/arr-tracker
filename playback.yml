@@ -3,6 +3,6 @@ kind: Component
 metadata:
   name: playback-order
   description: Playback Order
-  tags:
-    - ruby
-    - playback
+spec:
+  type: service
+  owner: name
