@@ -1,4 +1,5 @@
 apiVersion: backstage.io/v1alpha1
+kind: Component
 metadata:
   name: playback-order
   description: Playback Order
@@ -9,4 +10,4 @@ spec:
   type: service
   lifecycle: staging
   owner: user:guest
-  system: video-playback
+  system: video-play-back
