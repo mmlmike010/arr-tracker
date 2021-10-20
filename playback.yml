@@ -3,12 +3,11 @@ kind: Component
 metadata:
   name: playback-order
   description: Playback Order
-  team: platform
   tags:
     - ruby
     - playback
 spec:
   type: service
   lifecycle: staging
-  owner: user:guest
+  owner: platform
   system: video-play-back
