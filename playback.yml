@@ -5,4 +5,4 @@ metadata:
   description: Playback Order
 spec:
   type: service
-  owner: name
+  owner: snoc-team
