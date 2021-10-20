@@ -6,8 +6,3 @@ metadata:
   tags:
     - ruby
     - playback
-spec:
-  type: service
-  lifecycle: staging
-  owner: platform
-  system: video-play-back
