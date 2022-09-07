@@ -16,9 +16,6 @@ metadata:
     - url: https://honeycomb.io
       title: Honeycomb
       icon: honeycomb
-    - url: https://confluence.com/help
-      title: Runbook
-      icon: runbook
 spec:
   type: service
   lifecycle: staging
