@@ -10,9 +10,6 @@ metadata:
     - url: https://github.com
       title: Github
       icon: github
-    - url: https://datadog.com
-      title: Datadog
-      icon: datadog
     - url: https://pagerduty.com
       title: PagerDuty
       icon: pagerduty
