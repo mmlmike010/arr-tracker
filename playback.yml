@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: playback-order
+  name: arr-tracker
   description: Playback Order
   tags:
     - ruby
