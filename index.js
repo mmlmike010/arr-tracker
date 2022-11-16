@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(bodyParser.json());
-// dummy comment
+
 app.options('*', cors());
 
 var port = process.env.PORT || 80;
