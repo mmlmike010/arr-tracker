@@ -10,7 +10,7 @@ metadata:
     - ruby
     - playback
   links:
-    - url: https://github.com
+    - url: https://github.com/test
       title: Github
       icon: github
     - url: https://datadog.com
@@ -30,3 +30,8 @@ spec:
   lifecycle: staging
   owner: platform
   system: video-play-back
+key:
+  type: acquired
+  lifecycle: development
+  owner: infrastructure
+  system: test-incident-plan
