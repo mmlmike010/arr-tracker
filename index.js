@@ -22,7 +22,6 @@ app.use(express.json({ limit: '1mb' }));
 // post request
 app.post('/webhook', (request, response) => {
     //new code
-  // Check to see POST request was received
   console.log('request recieved');
   console.log(request.body);
 
